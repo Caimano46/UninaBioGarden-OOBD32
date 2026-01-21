@@ -1,0 +1,7 @@
+# Main .gitignore for UninaBioGarden
+
+# Local Obsidian vault folder
+.obsidian/
+
+# generated pdfs
+*.pdf
