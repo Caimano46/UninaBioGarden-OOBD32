@@ -1,4 +1,3 @@
-
 bdd-docs: 
 	cd docs/uninabiogarden/BDD && pandoc "Documentazione-BDD.md" \
     -o Documentazione-BDD.pdf \

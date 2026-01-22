@@ -13,3 +13,39 @@
 - **MALATO**: Presenza di infezioni fungine, batteriche o virali.
 - **INFESTATO**: Presenza attiva di parassiti o insetti (collegabile all'entità "Anomalia" della traccia)
 - **MORTO**: La coltivazione è persa e deve essere rimossa dal progetto.
+
+
+
+#### 1. Stati del Progetto
+
+- **PIANIFICATO** (Invece di PREPARAZIONE): Indica che il progetto esiste ma è ancora in fase di definizione.
+    
+- **ATTIVO**: Il progetto è ufficialmente aperto. Si possono iniziare le coltivazioni.
+    
+- **CONCLUSO**: Terminato con successo.
+    
+- **FALLITO**: Terminato negativamente (es. abbandono del progetto).
+    
+
+#### 2. Stati della Coltivazione
+
+- **PIANIFICATA**: La pianta è assegnata a un lotto, ma non è ancora stato fatto nulla.
+    
+- **ATTIVA** (Invece di IN_CORSO): La coltivazione è iniziata (es. è stata seminata o preparata).
+    
+- **CONCLUSA**: Ciclo biologico concluso con la raccolta.
+    
+- **FALLITA**: La pianta è morta o compromessa.
+    
+- **ANNULLATA**: Rimossa per scelta gestionale.
+    
+
+#### 3. Stati dell'Attività
+
+- **PIANIFICATA**: L'attività è nel calendario.
+    
+- **IN_CORSO** (Unica eccezione): Qui "In Corso" è più preciso di "Attiva" perché descrive un'azione fisica puntuale che si sta svolgendo _ora_. Tuttavia, se vuoi la simmetria totale, puoi usare **ATTIVA**, ma "In Corso" è lo standard de facto per i task.
+    
+- **COMPLETATA**: Lavoro eseguito con successo.
+    
+- **ANNULLATA**: Lavoro non più necessario.
