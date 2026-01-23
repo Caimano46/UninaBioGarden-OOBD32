@@ -49,3 +49,8 @@
 - **COMPLETATA**: Lavoro eseguito con successo.
     
 - **ANNULLATA**: Lavoro non più necessario.
+
+
+## Orto
+- `nome_orto` deve essere almeno lungo due caratteri per evitare nomi vuoti
+- `id_proprietario` deve essere inserito durante la creazione dell'orto e non deve essere più modificato.

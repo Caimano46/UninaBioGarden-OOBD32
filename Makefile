@@ -8,3 +8,14 @@ bdd-docs:
     -V colorlinks=true \
     -V lang=it-IT
  
+
+dizionario-vincoli:
+	cd docs/uninabiogarden/BDD && pandoc "dizionario-vincoli-tmp.md" \
+    -o dizionario-vincoli-tmp.pdf \
+    --pdf-engine=xelatex \
+    --toc \
+    -N \
+    -V geometry:margin=2cm \
+    -V colorlinks=true \
+    -V lang=it-IT
+ 
